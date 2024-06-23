@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import alarm from "../../Assets/Projects/alarm.png";
 import lagardere from "../../Assets/Projects/lagardere.png";
 import FocusAI from "../../Assets/Projects/FocusAI.png";
 import chargeaction from "../../Assets/Projects/chargeaction.png";
@@ -54,11 +54,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={alarm}
               isBlog={false}
               title="LLM-Driven Diagnostic System Naval Ship Engine Alarms"
               description="Automated extraction of relevant information from technical documentation. Real-time diagnosis and action recommendations based on the extracted information."
               ghLink="https://github.com/ShauryaS31/AI-HACKATHON"
+              videoLink="https://youtu.be/DDzSrXvgrvE"
               presoLink="https://drive.google.com/file/d/15LdSAdBDJhV0U1lAUAkzuX240oB9FeRj/view?usp=sharing"
             />
           </Col>
