@@ -4,7 +4,6 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import lagardere from "../../Assets/Projects/lagardere.png";
-import editor from "../../Assets/Projects/codeEditor.png";
 import FocusAI from "../../Assets/Projects/FocusAI.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import AusTrade from "../../Assets/Projects/AusTrade.png";
