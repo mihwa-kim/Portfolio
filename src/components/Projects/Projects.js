@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import lagardere from "../../Assets/Projects/lagardere.png";
 import FocusAI from "../../Assets/Projects/FocusAI.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import chargeaction from "../../Assets/Projects/chargeaction.png";
 import AusTrade from "../../Assets/Projects/AusTrade.png";
 
 function Projects() {
@@ -65,7 +65,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={chargeaction}
               isBlog={false}
               title="Charge ACTion"
               description="The growing use of electric vehicles in the Australian Capital Territory (ACT) requires a robust public charging infrastructure. The ACT Government aims to install 180 charging stations by 2025. We have strategic recommendations in two parts: Part 1 focuses on efficient distribution of stations and charger types, while Part 2 addresses behavioral considerations and strategies to encourage the use of public charging stations. We've also created a video and website to present these solutions for the challenge of Charging Electric Vehicles in the ACT."
